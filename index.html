@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeeShop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Josefin+Slab:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="home" id="home">
+        <video autoplay muted loop playsinline class="home-video">
+            <source src="./assets/cafe_video.mp4" type="video/mp4" />
+            Tu navegador no soporta video.
+        </video>
+
+        <div class="overlay"></div>
+
+        
+        <header class="header-scroll" id="header-scroll">
+            <div class="header-scroll-container">
+                <div class="logo-pequeño">☕ Mi Cafetería</div>
+                <nav class="nav-scroll">
+                    <a href="#home">Inicio</a>
+                    <a href="#about">Nosotros</a>
+                    <a href="#products">Productos</a>
+                    <a href="#reviews">Reseñas</a>
+                    <a href="#work">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="home-layout">
+
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+
+            <div class="home-container">
+                <nav class="navbar" id="navbar">
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#products">Productos</a></li>
+                        <li><a href="#reviews">Reseñas</a></li>
+                        <li><a href="#work">Trabajemos juntos</a></li>
+                    </ul>
+                </nav>
+                <div class="home-content">
+                    <h1>Cafetería</h1>
+                    <p>Un café que reconforta cada tarde.</p>
+                    <div class="home-buttons">
+                        <button>Ver el menú de hoy</button>
+                        <button>Compra granos de café</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <div class="color-divider">
+        <div class="stripe1"></div>
+        <div class="stripe2"></div>
+        <div class="stripe3"></div>
+        <div class="stripe4"></div>
+    </div>
+
+
+    <section class="about" id="about">
+
+        <div class="container-about">
+
+            <div class="about-gallery">
+                <img src="./assets/tres-cafes.jpeg" alt="tres tazas de cafe">
+            </div>
+
+            <div class="about-content">
+                <h2>Nosotros</h2>
+                <p>Nuestra pasión nace del grano seleccionado. Con amor y cuidado diario buscamos el aroma y sabor de nuestra amada tierra.</p>
+                <p>Desde el corazón de la selva misionera, cada taza cuenta historias únicas de trabajo con manos argentinas locales.</p>
+
+                <p> Vení a disfrutar de un momento especial en un ambiente cálido diseñado para que te sientas como en tu propia casa.</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <div class="color-divider">
+        <div class="stripe1"></div>
+        <div class="stripe2"></div>
+        <div class="stripe3"></div>
+        <div class="stripe4"></div>
+    </div>
+
+
+    <section class="products" id="products">
+
+
+        <div class="products-content">
+
+            <h2 class="title-products">Productos</h2>
+            <div class="description">
+                <h3>Elaborado con pasión, servido con calidez.</h3>
+                <p>Nuestra selección incluye tres cafés clásicos: Espresso con su sabor intenso, Latte suave y cremoso,
+                    y Cappuccino con una espuma aterciopelada.</p>
+                <p> Cada taza está elaborada para brindar calidez y confort en cada momento.</p>
+            </div>
+        </div>
+
+        <div class="products-container">
+
+            <div class="Espresso">
+                <img src="./assets/Espresso.png" alt="espresso">
+                <h3>Espresso</h3>
+                <p>$3.99</p>
+            </div>
+
+
+            <div class="Cappuccino">
+                <img src="./assets/capuchinno.png" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>$4.50</p>
+            </div>
+
+
+            <div class="Latte">
+                <img src="./assets/latte.png" alt="latte">
+                <h3>latte</h3>
+                <p>$4.50</p>
+            </div>
+
+            <div class="products-button">
+                <button>Ver más productos</button>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="color-divider">
+        <div class="stripe1"></div>
+        <div class="stripe2"></div>
+        <div class="stripe3"></div>
+        <div class="stripe4"></div>
+    </div>
+
+    <section class="reviews" id="reviews">
+
+        <div class="reviews-content">
+
+            <div class="reviews-left">
+                <h2>Reseñas</h2>
+                <p>Dejanos un comentario</p>
+
+                <form class="comment-box">
+                    <textarea placeholder="..." rows="3"></textarea>
+                    <button type="button" class="btn-send">enviar</button>
+                </form>
+
+                <div class="intermediate">
+                    <img src="./assets/intermedio.png" alt="distintos tipos de cafe">
+                </div>
+
+                <div class="cards-container">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"El café es sencillamente espectacular, con un sabor intenso y siempre servido caliente. El
+                            trabajemos_juntos-img ambiente de la cafetería es acogedor y elegante, perfecto para
+                            cualquier tarde.”</p>
+                        <span class="author">— Sophia Miller</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Me encantó el capuchino y las tazas personalizadas. Todo se nota que está hecho con mucho
+                            cuidado, y el servicio hace que cada visita sea especial"</p>
+                        <span class="author">—— Daniel Carter</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="reviews-right">
+                <video autoplay muted loop playsinline class="video-side">
+                    <source src="./assets/video-reseñas.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <div class="color-divider">
+        <div class="stripe1"></div>
+        <div class="stripe2"></div>
+        <div class="stripe3"></div>
+        <div class="stripe4"></div>
+    </div>
+
+    <section class="work" id="work">
+        <div class="work-content">
+            <div class="work-left">
+
+                <h2>Trabajemos <span>Juntos</span> </h2>
+                <p>¡Forma parte de nuestro equipo!</p>
+
+                <form class="work-box">
+                    <h3>Nombre Completo</h3>
+                    <textarea placeholder="..." rows="3"></textarea>
+                </form>
+
+                <form class="work-box">
+                    <h3>Correo</h3>
+                    <textarea placeholder="..." rows="3"></textarea>
+                </form>
+
+                <div class="buttons">
+                    <button type="button" class="work-send">enviar</button>
+                    <button type="button" class="work-cv">cv</button>
+                    <p>*Cargar curriculum</p>
+                </div>
+
+            </div>
+
+            <div class="work-right">
+                <video autoplay muted loop playsinline class="work-video">
+                    <source src="./assets/Trabajemosjuntos-img.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p>Created by</p>
+            <p>Melina Gamarra</p>
+            <p>© 2026 Coffee Shop</p>
+        </div>
+
+        <div>
+            <p>Contacto</p>
+            <p>+54 376 5058777</p>
+            <p>gamarra.melina.2002@gmail.com</p>
+        </div>
+
+        <div>
+            <p>Ubicación</p>
+            <p>Av. Café 123, Posadas</p>
+            <p>Misiones, Argentina</p>
+        </div>
+
+
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
