@@ -24,7 +24,9 @@ JavaScript: Lógica para el manejo del menú, efectos de scroll e interactividad
 
 📂 Estructura 
 
+
 CoffeeShop/
+
 ├── assets/         # Imágenes y videos del proyecto
 
 ├── css/            # Hoja de estilos (style.css)
